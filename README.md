@@ -10,24 +10,5 @@ Compatibility Resource Pack for the [LivingThings](https://www.curseforge.com/mi
 
 Adds compatibility for the following mods.
 - Xaero's Minimap [https://modrinth.com/mod/xaeros-minimap](https://modrinth.com/mod/xaeros-minimap)
-  - Currently supported mobs:
-    - Crabs
-    - Ancient Blaze
-    - Baby Ender Dragon
-    - Elephant
-    - Flamingo
-    - Giraffe
-    - Koala
-    - Lion
-    - Mantaray
-    - Monkey
-    - Nether Knight
-    - Ostrich
-    - Owl
-    - Peacock
-    - Penguin
-    - Raccoon
-    - Shark
-    - Shroomie
-    - Snail
+    - All mobs from the LivingThings mod are supported in Xaero's Minimap.
 - [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)
