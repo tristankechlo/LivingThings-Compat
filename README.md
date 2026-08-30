@@ -14,4 +14,5 @@ Adds compatibility for the following mods.
     - Crabs
     - Ancient Blaze
     - Baby Ender Dragon
+    - Elephant
 - [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)
