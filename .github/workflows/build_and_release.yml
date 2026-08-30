@@ -13,6 +13,9 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    outputs:
+      pack-version: ${{ steps.props.outputs.version }}
+      mc-version: ${{ steps.props.outputs.mc_version }}
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
@@ -38,6 +41,7 @@ jobs:
 
       - name: publish to Modrinth and CurseForge
         uses: Kir-Antipov/mc-publish@v3.3
+        if: ${{ contains(github.event.release.name, '[RELEASE]') }}
         with:
             # modrinth-id: ${{ env.MODRINTH_ID }}
             # modrinth-featured: true
@@ -60,3 +64,27 @@ jobs:
             changelog:  "${{ github.event.release.body }}"
             game-versions: "${{ steps.props.outputs.version_range }}"
             game-version-filter: "releases"
+
+  send-discord-embed:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make embed
+        uses: tristankechlo/create-discord-embed@v1.1
+        with:
+          released: ${{ contains(github.event.release.name, '[RELEASE]') }}
+          changelog: "${{ github.event.release.body }}"
+          version: "${{ needs.build.outputs.mc-version }} - ${{ needs.build.outputs.pack-version }}"
+          color: 2326507
+          mod-name: "LivingThings-Compat"
+          loaders: Forge,Fabric,NeoForge
+          curseforge: "https://www.curseforge.com/minecraft/mc-mods/living-things-compat"
+          modrinth: "https://modrinth.com/mod/living-things-compat"
+          github: ${{ github.event.release.html_url }}
+          thumbnail: "https://cdn.modrinth.com/data/UKDLi1GJ/d345468b19bfd5ffffa1ed070297a6a74535e9d6.png"
+
+      - name: Send Discord Message
+        uses: tsickert/discord-webhook@v6.0.0
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          raw-data: ./embed.json
