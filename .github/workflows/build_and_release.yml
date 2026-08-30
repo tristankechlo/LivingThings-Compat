@@ -39,12 +39,12 @@ jobs:
       - name: publish to Modrinth and CurseForge
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-            modrinth-id: ${{ env.MODRINTH_ID }}
-            modrinth-featured: true
-            modrinth-unfeature-mode: intersection
-            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-            modrinth-name: "${{ steps.props.outputs.mc_version }} - ${{ steps.props.outputs.version }}"
-            modrinth-version: "${{ steps.props.outputs.mc_version }}-${{ steps.props.outputs.version }}"
+            # modrinth-id: ${{ env.MODRINTH_ID }}
+            # modrinth-featured: true
+            # modrinth-unfeature-mode: intersection
+            # modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+            # modrinth-name: "${{ steps.props.outputs.mc_version }} - ${{ steps.props.outputs.version }}"
+            # modrinth-version: "${{ steps.props.outputs.mc_version }}-${{ steps.props.outputs.version }}"
             curseforge-id: ${{ env.CURSEFORGE_ID }}
             curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
             curseforge-name: ""
