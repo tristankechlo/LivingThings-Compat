@@ -21,4 +21,5 @@ Adds compatibility for the following mods.
     - Lion
     - Mantaray
     - Monkey
+    - Nether Knight
 - [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)
