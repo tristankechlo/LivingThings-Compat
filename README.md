@@ -27,4 +27,5 @@ Adds compatibility for the following mods.
     - Peacock
     - Penguin
     - Raccoon
+    - Shark
 - [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)
