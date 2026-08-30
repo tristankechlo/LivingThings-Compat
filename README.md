@@ -13,4 +13,5 @@ Adds compatibility for the following mods.
   - Currently supported mobs:
     - Crabs
     - Ancient Blaze
+    - Baby Ender Dragon
 - [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)
