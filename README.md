@@ -10,5 +10,7 @@ Compatibility Resource Pack for the [LivingThings](https://www.curseforge.com/mi
 
 Adds compatibility for the following mods.
 - Xaero's Minimap [https://modrinth.com/mod/xaeros-minimap](https://modrinth.com/mod/xaeros-minimap)
-  - Currently supported mobs: Crabs
+  - Currently supported mobs:
+    - Crabs
+    - Ancient Blaze
 - [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)
