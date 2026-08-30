@@ -1,6 +1,5 @@
 {
     "variants": {
-        "livingthings:textures/entity/elephant/elephant.png": "outlined_sprite:livingthings/elephant.png",
         "default": "outlined_sprite:livingthings/elephant.png"
     }
 }

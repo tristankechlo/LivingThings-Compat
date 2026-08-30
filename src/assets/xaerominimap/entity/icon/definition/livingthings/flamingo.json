@@ -1,6 +1,5 @@
 {
     "variants": {
-        "livingthings:textures/entity/flamingo/flamingo.png": "outlined_sprite:livingthings/flamingo.png",
         "default": "outlined_sprite:livingthings/flamingo.png"
     }
 }

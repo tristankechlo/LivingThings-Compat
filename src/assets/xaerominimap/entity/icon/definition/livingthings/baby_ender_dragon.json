@@ -1,6 +1,5 @@
 {
     "variants": {
-        "livingthings:textures/entity/baby_ender_dragon/baby_ender_dragon.png": "outlined_sprite:livingthings/baby_ender_dragon.png",
         "default": "outlined_sprite:livingthings/baby_ender_dragon.png"
     }
 }

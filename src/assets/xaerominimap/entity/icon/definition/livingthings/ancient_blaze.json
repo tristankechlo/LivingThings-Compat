@@ -1,6 +1,5 @@
 {
     "variants": {
-        "livingthings:textures/entity/ancient_blaze/ancient_blaze.png": "normal_sprite:livingthings/ancient_blaze.png",
         "default": "normal_sprite:livingthings/ancient_blaze.png"
     }
 }
