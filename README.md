@@ -24,4 +24,5 @@ Adds compatibility for the following mods.
     - Nether Knight
     - Ostrich
     - Owl
+    - Peacock
 - [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)
