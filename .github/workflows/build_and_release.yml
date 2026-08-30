@@ -1,0 +1,57 @@
+name: Build and Release
+
+on:
+  release:
+    types: [published]
+
+env:
+  CURSEFORGE_ID: 1674826
+  MODRINTH_ID: "M6rSUTth"
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: calculate versions
+        id: props
+        uses: christian-draeger/read-properties@1.1.1
+        with:
+          path: 'pack.properties'
+          properties: 'name version mc_version version_range'
+
+      - name: create zip archive
+        run: git archive -o $FILENAME --add-file "./LICENSE" HEAD:src
+        env:
+            FILENAME: "${{ steps.props.outputs.name }}-${{ steps.props.outputs.mc_version }}-${{ steps.props.outputs.version }}.zip"
+
+      - name: Add files to GitHub-Release
+        uses: shogo82148/actions-upload-release-asset@v1.7.5
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: "./${{ steps.props.outputs.name }}-*.zip"
+          overwrite: true
+
+      - name: publish to Modrinth and CurseForge
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+            modrinth-id: ${{ env.MODRINTH_ID }}
+            modrinth-featured: true
+            modrinth-unfeature-mode: intersection
+            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+            modrinth-name: "${{ steps.props.outputs.mc_version }} - ${{ steps.props.outputs.version }}"
+            modrinth-version: "${{ steps.props.outputs.mc_version }}-${{ steps.props.outputs.version }}"
+            curseforge-id: ${{ env.CURSEFORGE_ID }}
+            curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+            curseforge-name: ""
+            curseforge-version: ""
+            version-type: "release"
+            loaders: minecraft
+            files: "./${{ steps.props.outputs.name }}-*.zip"
+            changelog:  "${{ github.event.release.body }}"
+            game-versions: "${{ steps.props.outputs.version_range }}"
+            game-version-filter: "releases"
