@@ -10,7 +10,7 @@ Compatibility Resource Pack for the [LivingThings](https://www.curseforge.com/mi
 
 Adds compatibility for the following mods.
 - Xaero's Minimap [https://modrinth.com/mod/xaeros-minimap](https://modrinth.com/mod/xaeros-minimap)
-    - All mobs from the LivingThings mod are supported in Xaero's Minimap.
+    - all mobs from the LivingThings mod are supported for Xaero's Minimap
 - [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)
 
 ---

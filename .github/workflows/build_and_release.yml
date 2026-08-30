@@ -45,6 +45,11 @@ jobs:
             # modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
             # modrinth-name: "${{ steps.props.outputs.mc_version }} - ${{ steps.props.outputs.version }}"
             # modrinth-version: "${{ steps.props.outputs.mc_version }}-${{ steps.props.outputs.version }}"
+            # curseforge has the dependencies on the project level, added automatically to all uploads, so we don't need to add them here
+            # adding LivingThings as a required dependency and Xaero's Minimap as an optional dependency for modrinth
+            modrinth-dependencies: |
+              UKDLi1GJ(required)
+              1bokaNcj(optional)
             curseforge-id: ${{ env.CURSEFORGE_ID }}
             curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
             curseforge-name: ""
