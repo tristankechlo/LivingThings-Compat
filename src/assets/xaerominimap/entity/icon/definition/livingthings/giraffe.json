@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "livingthings:textures/entity/giraffe/giraffe_white.png": "outlined_sprite:livingthings/giraffe_white.png",
+        "default": "outlined_sprite:livingthings/giraffe.png"
+    }
+}
