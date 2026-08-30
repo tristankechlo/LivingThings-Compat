@@ -1,8 +1,8 @@
 {
     "variants": {
         "livingthings:textures/entity/crab/crab_blue.png": "outlined_sprite:livingthings/crab_blue.png",
-        "livingthings:textures/entity/crab/crab_red.png": "outlined_sprite:livingthings/crab_blue.png",
-        "livingthings:textures/entity/crab/crab_white.png": "outlined_sprite:livingthings/crab_blue.png",
-        "default": "outlined_sprite:livingthings/crab_blue.png"
+        "livingthings:textures/entity/crab/crab_red.png": "outlined_sprite:livingthings/crab_red.png",
+        "livingthings:textures/entity/crab/crab_white.png": "outlined_sprite:livingthings/crab_white.png",
+        "default": "outlined_sprite:livingthings/crab_red.png"
     }
 }
