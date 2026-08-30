@@ -19,4 +19,5 @@ Adds compatibility for the following mods.
     - Giraffe
     - Koala
     - Lion
+    - Mantaray
 - [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)

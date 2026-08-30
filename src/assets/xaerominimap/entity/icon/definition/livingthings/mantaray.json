@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "livingthings:textures/entity/mantaray/mantaray_blue.png": "outlined_sprite:livingthings/mantaray_blue.png",
+        "livingthings:textures/entity/mantaray/mantaray_brown.png": "outlined_sprite:livingthings/mantaray_brown.png",
+        "default": "outlined_sprite:livingthings/mantaray_blue.png"
+    }
+}
