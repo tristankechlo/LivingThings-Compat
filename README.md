@@ -17,5 +17,7 @@ Adds compatibility for the following mods.
 
 ### Icons as seen in Xaero's Minimap
 
+(Not all available variants shown here)
+
 <img src="/images/ingame-icons.png" alt="ingame-icons" />
 
