@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "livingthings:textures/entity/seahorse/seahorse_blue.png": "outlined_sprite:livingthings/seahorse_blue.png",
+        "livingthings:textures/entity/seahorse/seahorse_green.png": "outlined_sprite:livingthings/seahorse_green.png",
+        "livingthings:textures/entity/seahorse/seahorse_purple.png": "outlined_sprite:livingthings/seahorse_purple.png",
+        "livingthings:textures/entity/seahorse/seahorse_red.png": "outlined_sprite:livingthings/seahorse_red.png",
+        "livingthings:textures/entity/seahorse/seahorse_yellow.png": "outlined_sprite:livingthings/seahorse_yellow.png",
+        "default": "outlined_sprite:livingthings/seahorse_green.png"
+    }
+}
