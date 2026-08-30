@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "livingthings:textures/entity/shroomie/shroomie_brown.png": "outlined_sprite:livingthings/shroomie_brown.png",
+        "livingthings:textures/entity/shroomie/shroomie_red.png": "outlined_sprite:livingthings/shroomie_red.png",
+        "default": "outlined_sprite:livingthings/shroomie_red.png"
+    }
+}
