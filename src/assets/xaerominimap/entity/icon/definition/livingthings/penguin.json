@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "livingthings:textures/entity/penguin/penguin_baby.png": "outlined_sprite:livingthings/penguin_baby.png",
+        "default": "outlined_sprite:livingthings/penguin.png"
+    }
+}
