@@ -8,16 +8,25 @@ Compatibility Resource Pack for the [LivingThings](https://www.curseforge.com/mi
 
 ---
 
-Adds compatibility for the following mods.
-- Xaero's Minimap [https://modrinth.com/mod/xaeros-minimap](https://modrinth.com/mod/xaeros-minimap)
-    - all mobs from the LivingThings mod are supported for Xaero's Minimap
-- [Planned] What Did I Just Kill? [https://modrinth.com/mod/what-did-i-just-kill](https://modrinth.com/mod/what-did-i-just-kill)
+### Compatibility with Xaero's Minimap
+
+Get here: https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap  
+
+All mobs from LivingThings are added for Xaero's Minimap
+<img src="/images/ingame-icons.png" alt="ingame-icons" />
 
 ---
 
-### Icons as seen in Xaero's Minimap
+### Compatibility with What Did I Just Kill?
 
-(Not all available variants shown here)
+Get here: https://curseforge.com/minecraft/mc-mods/what-did-i-just-kill  
 
-<img src="/images/ingame-icons.png" alt="ingame-icons" />
+Planned
 
+---
+
+### Compatibility with JourneyMap
+
+Get here: https://www.curseforge.com/minecraft/mc-mods/journeymap
+
+Planned
