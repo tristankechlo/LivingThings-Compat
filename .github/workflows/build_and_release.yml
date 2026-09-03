@@ -53,10 +53,12 @@ jobs:
             # adding LivingThings as a required dependency
             # adding Xaero's Minimap as an optional dependency
             # adding JourneyMap as an optional dependency
+            # adding What Did I Just Kill? as an optional dependency
             modrinth-dependencies: |
               UKDLi1GJ(required)
               1bokaNcj(optional)
               lfHFW1mp(optional)
+              gars5tKl(optional)
             curseforge-id: ${{ env.CURSEFORGE_ID }}
             curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
             curseforge-name: ""
