@@ -13,7 +13,7 @@ Compatibility Resource Pack for the [LivingThings](https://www.curseforge.com/mi
 Get here: https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap  
 
 All mobs from LivingThings are added for Xaero's Minimap
-<img src="/images/ingame-icons.png" alt="ingame-icons" />
+<img src="/images/ingame-xaeros-minimap.png" alt="ingame-xaeros-minimap" />
 
 ---
 
