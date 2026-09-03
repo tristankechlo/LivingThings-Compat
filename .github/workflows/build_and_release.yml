@@ -43,12 +43,12 @@ jobs:
         uses: Kir-Antipov/mc-publish@v3.3
         if: ${{ contains(github.event.release.name, '[RELEASE]') }}
         with:
-            # modrinth-id: ${{ env.MODRINTH_ID }}
-            # modrinth-featured: true
-            # modrinth-unfeature-mode: intersection
-            # modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-            # modrinth-name: "${{ steps.props.outputs.mc_version }} - ${{ steps.props.outputs.version }}"
-            # modrinth-version: "${{ steps.props.outputs.mc_version }}-${{ steps.props.outputs.version }}"
+            modrinth-id: ${{ env.MODRINTH_ID }}
+            modrinth-featured: true
+            modrinth-unfeature-mode: intersection
+            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+            modrinth-name: "${{ steps.props.outputs.mc_version }} - ${{ steps.props.outputs.version }}"
+            modrinth-version: "${{ steps.props.outputs.mc_version }}-${{ steps.props.outputs.version }}"
             # curseforge has the dependencies on the project level, added automatically to all uploads, so we don't need to add them here
             # adding LivingThings as a required dependency and Xaero's Minimap as an optional dependency for modrinth
             modrinth-dependencies: |
